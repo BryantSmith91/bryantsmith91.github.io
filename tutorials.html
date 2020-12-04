@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <title>This is the template, please change this.</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/tutorials.css">
+    </style>
+</head>
+
+<body>
+    <header>
+        <table>
+            <caption hidden>header</caption>
+            <thead>
+                <tr>
+                    <th id=home>
+                        <a href=index.html><img class=home src="images/pythonsquare.png" alt="No Errors!" width="75" height="75"></a>
+                    </th>
+                    <th id=about><a href=about.html>About</a></th>
+                    <th id=tutorials><a href=tutorials.html>Getting Started</a></th>
+                    <th id=challenges><a href=challenges.html>Challenges</a></th>
+                    <th id=blog><a href=blog.html>Blog</a></th>
+                    <!-- <th id=forum><a href=forum.html>Forum</a></th> -->
+                </tr>
+            </thead>
+        </table>
+        <br class=sep>
+    </header>
+    <main>
+        <h1>
+            How to Get Started with Python Programming
+        </h1>
+        <div class=content>
+
+            <figure>
+
+            </figure>
+            <div class=steps>
+                <h3 class=steps> Step 1: Install Anaconda</h3>
+                <p id=step1text>
+                    Click <a href="https://www.anaconda.com/products/individual">this</a> link to go to the download page for "Anaconda", scroll down and, select the installer for your OS.
+                    <figure>
+                        <img src="images/anacondainstall.png">
+                        <figcaption hidden>Anaconda Installer for Windows</figcaption>
+                    </figure>
+                </p>
+                <h3 class=steps> Step 2: </h3>
+                <p id=step2text>Run the installer that downloads and go through all of the steps.<br><br>Take extra care and read the options when it comes up with the "Advanced Options" as shown to the right. I'd advise following their recomendations and selecting the
+                    options as shown to the right which I've also noted below.<br><br>
+                </p>
+                <form class=input>
+                    <input type="checkbox" id="Path" name="Path" value="Path">
+                    <label for="Path">Add Anaconda to my PATH environment variable</label><br>
+                    <input type="checkbox" id="Register" name="Register" value="Register" checked=checked>
+                    <label for="Register">Register Anaconda3 as my default Python 3.8</label><br><br>
+                </form>
+                <h3 class=steps> Step 3: </h3>
+                <p id=step3text>Next, you'll go ahead and click "Install" and Anaconda should automatically install with no errors, hopefully, and once installed, you've got Python installed with all of the packages in the Anaconda library. Some of these packages are
+                    listed below, please note the full list of packages can be accessed <a href="https://docs.anaconda.com/anaconda/packages/py3.8_win-64/" alt="Anaconda Package List">here</a>.
+                    <ul>
+                        <li>Python : General purpose programming language</li><br>
+                        <li>Pandas : High-performance, easy-to-use data structures and data analysis tools.</li><br>
+                        <li>pip : PyPA recommended tool for installing Python packages</li><br>
+                        <li>Jupyter : Jupyter metapackage. Install all the Jupyter components in one go</li><br>
+                        <li>Matplotlib : Publication quality figures in Python</li>
+                    </ul>
+                </p>
+                <h3 class=steps> Step 4: </h3>
+                <p id=step4text>The installer will then provide you with some options to learn more about Anaconda, I'd recommend reading up on these and opening the "Anaconda Navigator" program that was just installed on your computer. But, now you have Python and Anaconda
+                    installed, you can start the next steps of learning about Data Science Programming and using Pandas in the next entry of this tutorial series which will be linked to <a>here</a> when the post is ready.</p>
+
+            </div>
+            <h2>Any questions? Fill out the form below and send me an email!</h2>
+            <div id=form>
+                <form action="mailto:bsmit110@email.cpcc.edu">
+                    <p class="forms">
+                        <label for="email">Email Address:
+                        <input type="text" name="email" id="email" />
+                    </label>
+                        <label for="comments">
+                        <textarea name="comments" cols="35">Send me any questions or comments!</textarea>
+                    </label>
+                        <input type="submit" name="submit" value="Send" />
+                        <input type="reset" name="reset" value="Clear Form" /></p>
+
+                </form>
+
+            </div>
+            <br id=endcontent>
+
+        </div>
+        <br class=sep>
+    </main>
+
+
+    <footer>
+        <em>Page Built by BrSmitty Inc.</em><br>
+
+        <a href="https://validator.w3.org/check?uri=referer" class=validation><img class=validation src="images/validation_button_html-blue.png" alt="No Errors!" height="31" width="88"></a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" class=validation><img class=validation src="images/validation_button_css-blue.png" alt="Valid CSS" height="31" width="88"></a>
+    </footer>
+</body>
+
+</html>
