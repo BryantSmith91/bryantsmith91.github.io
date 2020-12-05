@@ -11,7 +11,7 @@ a {
     color: #5D5C61;
 }
 
-ul {
+ol {
     background-color: #7395AE
 }
 
@@ -25,12 +25,6 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    left: 5;
-    /* right: 10; */
-}
-
-header {
-    top: 10;
 }
 
 table {
@@ -63,14 +57,14 @@ br.sep {
 }
 
 img.left {
-    margin: 10px;
+    margin: 20px;
     float: right;
     clear: left;
     border: 1px solid black;
 }
 
 img.right {
-    margin: 10px;
+    margin: 20px;
     float: left;
     clear: right;
     border: 1px solid black;
@@ -109,9 +103,17 @@ br#endcontent {
 }
 
 a.home {
-    padding: 10%;
+    padding-left: 2.5%;
 }
 
 br#endcontentlowes {
     line-height: 15em;
+}
+
+li {
+    padding: 10px;
+}
+
+ol {
+    padding-left: 150px;
 }

@@ -15,7 +15,8 @@ ul {
     background-color: #7395AE
 }
 
-.validation {
+.validation,
+li {
     padding: 5px;
 }
 
@@ -25,12 +26,6 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    left: 5;
-    /* right: 10; */
-}
-
-header {
-    top: 10;
 }
 
 table {
